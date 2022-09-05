@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+
+h2{
+  padding:40px;
+  
+}
+.card-container {
+  
+  max-width: 500px;
+  height: 600px;
+  border-radius: 8px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0px 1px 10px 1px #000;
+  
+}
+
+.card-image{
+  width:100%;
+  height:100%;
+  position:absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  top:50px;
+}
+
+.card-img-content{
+  height:150px;
+  width:150px;
+  background-color:white;
+  border-radius:50%;
+  margin-top: 50px;
+  padding: 10px;
+}
+.foto2{
+  width:100%;
+  height:auto;
+  object-fit: cover;
+  border-radius:50%;
+
+}
+
+.body-container {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+  font-size: normal;
+  height:60%;
+  border-radius: 8px;
+}
+
+.footer-container {
+  background-color: #686de0;
+  height:37%;
+  border-radius: 8px;
+}
+
+.naam{
+  padding-top: 91px;
+}
+
+
+main {
+  background-color: #c3cfe2;
+  border-radius:none;
+}
+
+.container{
+  display:grid;
+  width:100%;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-gap: 1rem;
+}
+.opdracht2-container{
+  width:100%;
+  aspect-ratio:1;
+  align-items:center;
+  justify-content: center;
+  position: relative;
+  overflow:hidden;
+}
+
+.foto1{
+  background-color:green;
+  height:100%;
+  width:100%;
+  overflow:hidden;
+  position:absolute;
+  
+}
+
+.button{
+  position:absolute;
+  color:blue;
+  justify-self:center;
+  
+}
+.button1{
+  height:50px;
+  width:150px;
+  transition:transform 2s ease-out;
+  transform:translate(-100px);
+  background-color:yellow; 
+}
+.fa-facebook-f{
+  color:blueviolet;
+  
+}
+
+.button1:hover{
+  transform:translate(0px);
+}
+
+.button2{
+  height:50px;
+  width:150px;
+  transition:transform 2s ease-out;
+  transform:translate(-100px);
+  background-color:pink;
+}
+.button2:hover{
+  transform:translate(0px);
+}
+.button3{
+  height:50px;
+  width:150px;
+  transition:transform 2s ease-out;
+  transform:translate(-100px);
+  background-color:blue;
+}
+
+.button3:hover{
+  transform:translate(0px);
+}
+.button4{
+  height:50px;
+  width:150px;
+  transition:transform 2s ease-out;
+  transform:translate(-100px);
+  background-color:green;
+}
+
+.button4:hover{
+  transform:translate(0px);
+}
+.button5{
+  height:50px;
+  width:150px;
+  transition:transform 2s ease-out;
+  transform:translate(-100px);
+  background-color:lightblue;
+}
+
+.button5:hover{
+  transform:translate(0px);
+}
+/*# sourceMappingURL=style.css.map */
